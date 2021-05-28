@@ -1,189 +1,170 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>OZ-釧路公立大学　ストリートダンスサークル-</title>
-		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="oz_2.css">
-  </head>
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">OZ</h1>
+            <ul class="nav-items">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#video">VIDEO</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
 
-  <body>
-		<header>
-			<div class="nav">
-				<h2>OZ</h2>
-				<div class="nav-item">
-					<ul>
-						<li><a href="#about">ABOUT</a></li>
-						<li><a href="#video">VIDEO</a></li>
-						<li><a href="#news">NEWS</a></li>
-						<li><a href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
+    <main>
+        <div class="main-img"></div>
+        <div class="main-title">
+            <h1>OZ</h1>
+            <h3>釧路公立大学　ストリートダンスサークル</h3>
+            <ul>
+                <li><a class="fab fa-twitter" href="http://twitter.com/OZ_dance946"></a></li>
+                <li><a class="fab fa-instagram" href="https://www.instagram.com/dance_oz"></a></li>
+            </ul>
+            <p><span></span>Scroll</p>
+        </div>
+    </main>
 
-		<div class="main">
-			<div class="main-img">
-				<img src="https://github.com/yoppei0818/yoppei0818.github.io/blob/main/2019try_201215.jpg?raw=true" alt="OZ-釧路公立大学　ストリートダンスサークル-">
-			</div>
-			<div class="main-title">
-				<h1>OZ</h1>
-				<h3>釧路公立大学　ストリートダンスサークル</h3>
-				<ul>
-					<li><a class="fab fa-twitter" href="http://twitter.com/OZ_dance946"></a></li>
-					<li><a class="fab fa-instagram" href="https://www.instagram.com/dance_oz"></a></li>
-					<li><a class="fab fa-line" href="#"></a></li>
-				</ul>
-				<div class="direction">
-					<i class="fas fa-angle-down"></i>
-					<p>Scroll</p>
-				</div>
-			</div>
-		</div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about-text">
+                <h2>ABOUT</h2>
+                <p><span>OZ</span>(オズ)とは...<br>釧路公立大学のストリートダンスサークルです！<br>ストリートダンスを軸として学校祭や道東の5大学と合同でイベントを開いて活動したり、<br>最近ではストリートダンスだけでなくJ-popやK-popなど、幅広いジャンルで踊っています！<br>さらに、夏にはキャンプや秋にはハロウィンパーティなどダンス以外にも部員同士で仲良く企画して遊んでいます！</p>
+            </div>
+            <div class="about-datas">
+                <div class="about-data">
+                    <p>部員数</p>
+                    <h3><span>10</span>名</h3>
+                </div>
+                <div class="about-data">
+                    <p>練習日</p>
+                    <h3>週<span>４</span>日</h3>
+                    <h3 class="date">（火、水、金、土）</h3>
+                </div>
+                <div class="about-data">
+                    <p>ジャンル</p>
+                    <h3><span class="text">POP<br>HIPHOP</span><br>などなど...</h3>
+                </div>
+                <div class="about-data">
+                    <p>イベント数</p>
+                    <h3>年<span>5</span>回以上</h3>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <i class="fas fa-chevron-left" id="prevBtn"></i>
+                <i class="fas fa-chevron-right" id="nextBtn"></i>
+                <div class="slideshow">
+                    <img id="lastClone" src="images/写真 2021-04-21 午後8 32 10-min.jpg" alt="釧路公立大学　ストリートダンスサークル">
+                    <img src="images/写真 2021-04-21 午後8 30 39-min.jpg" alt="釧路公立大学　ストリートダンスサークル">
+                    <img src="images/IMG_8018-min.JPG" alt="釧路公立大学　ストリートダンスサークル">
+                    <img src="images/IMG_8017-min.JPG" alt="釧路公立大学　ストリートダンスサークル">
+                    <img src="images/写真 2021-04-21 午後8 32 10-min.jpg" alt="釧路公立大学　ストリートダンスサークル">
+                    <img id="firstClone" src="images/写真 2021-04-21 午後8 30 39-min.jpg" alt="釧路公立大学　ストリートダンスサークル">
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<div id="about" class="about">
-			<div class="container">
-				<div class="about-title">
-					<h2>ABOUT</h2>
-					<p>OZについて</p>
-				</div>
-				<div class="about-main">
-					<h2>" ただのダンスサークルじゃない。"</h2>
-				</div>
-				<div class="about-items1">
-					<div class="about-item1">
-						<h3>OZは、ただ踊るだけではありません！</h3>
-						<ul>
-							<li>イベントの企画や運営！</li>
-							<li>キャンプ！</li>
-							<li>ハロウィンパーティ！</li>
-						</ul>
-						<p>様々なイベントが待ってます！</p>
-					</div>
-					<div class="about-photo1 fadein">
-						<img src="https://github.com/yoppei0818/yoppei0818.github.io/blob/main/IMG_8017-min.JPG?raw=true" alt="OZ-釧路公立大学　ストリートダンスサークル-">
-					</div>
-				</div>
-				<div class="about-items2">
-					<div class="about-photo2 fadein">
-						<img src="https://github.com/yoppei0818/yoppei0818.github.io/blob/main/IMG_8018-min.JPG?raw=true" alt="OZ-釧路公立大学　ストリートダンスサークル-">
-					</div>
-					<div class="about-item2">
-						<ul>
-							<li>・部員数：８名</li>
-							<li>・活動日：火、水、金、土（18:00~21:00）</li>
-							<li>・主要なジャンル：POP、HIPHOP</li>
-						</ul>
-						<p>その他にもやってみたいジャンルがある方は<br>ぜひ言ってください！</p>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="video" id="video">
+        <div class="container">
+            <div class="video-text">
+                <h2>VIDEO</h2>
+                <p>OZのショーケースです！<br>これからも続々更新しますので、お待ちください！</p>
+            </div>
+            <div class="videos">
+                <div class="fes-videos">
+                    <div class="fes-video introduce">
+                        <h3>文化祭</h3>
+                        <p>　釧路公立大学で開かれるショーケースです！<br>　自分たちが踊りたいジャンルのショーケースを創って披露します！<br>　自分で新ジャンルを開拓してもいいんですよ！</p>
+                    </div>
+                    <div class="fes-video">
+                        <li><iframe width="280" height="200" src="https://www.youtube.com/embed/q5pfV8GFrkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </div>
+                    <div class="fes-video">
+                        <li><iframe width="280" height="200" src="https://www.youtube.com/embed/JsGLxFZsN68" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </div>
+                </div>
+                <div class="fes-videos">
+                    <div class="fes-video introduce">
+                        <h3>TRY</h3>
+                        <p>　道東の5大学（帯広畜産大学、北見工業大学、北海道教育大学釧路校、東京農業大学オホーツク校）で開かれるショーケースです！<br>　様々なジャンルのショーケースを見られる機会です！<br>　他校との友達をいっぱい作りましょう！</p>
+                    </div>
+                    <div class="fes-video">
+                        <li><iframe width="280" height="200" src="https://www.youtube.com/embed/4dIVe8-SoV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </div>
+                    <div class="fes-video">
+                        <li><iframe width="280" height="200" src="https://www.youtube.com/embed/6ZyGgoEIrwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<div id="video" class="video">
-			<div class="container">
-				<div class="video-title">
-					<h2>VIDEO</h2>
-					<p>OZのショーケース</p>
-				</div>
-				<div class="video-items">
-					<div class="video-item1">
-						<h3>文化祭</h3>
-						<ul>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/OLxxI6AbSE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/JsGLxFZsN68" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/Xm9eefCsHyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/q5pfV8GFrkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-						</ul>
-					</div>
-					<div class="video-item2">
-						<h3>TRY(５大学合同イベント)</h3>
-						<ul>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/4dIVe8-SoV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/6ZyGgoEIrwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/XQxxOYq7uAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-							<li><iframe width="280" height="200" src="https://www.youtube.com/embed/YOzjp7-HS3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="news" id="news">
+        <div class="container">
+            <div class="news-text">
+                <h2>NEWS</h2>
+                <p>OZの最新情報です！<br>様々な情報をお伝えします！</p>
+            </div>
+            <div class="news-items">
+                <div class="news-item">
+                    <p>2020.12.15</p>
+                    <h3>新入生歓迎会！！in朴然（コロナで全然できなかったので、、</h3>
+                </div>
+                <div class="news-item">
+                    <p>2020.11.06</p>
+                    <h3>今年度の部費が支給されました。</h3>
+                </div>
+                <div class="news-item">
+                    <p>2020.10.12</p>
+                    <h3>2020年　後期柔剣道場割当が決定しました！</h3>
+                </div>
+                <div class="news-item">
+                    <p>2020.07.08</p>
+                    <h3>新入生との交流会.・練習会をしました！！</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<div id="news" class="news">
-			<div class="container">
-				<div class="news-title">
-					<h2>NEWS</h2>
-					<p>OZの最新情報</p>
-				</div>
-				<div class="news-items">
-					<div class="news-item">
-						<div class="news-left">
-							<p>2020.12</p>
-							<h3>15</h3>
-						</div>
-						<div class="news-right">
-							<p>【新入生歓迎会！！in朴然（コロナで全然できなかったので、、】</p>
-						</div>
-					</div>
-					<div class="news-item">
-						<div class="news-left">
-							<p>2020.11</p>
-							<h3>6</h3>
-						</div>
-						<div class="news-right">
-							<p>【今年度の部費が支給されました。】</p>
-						</div>
-					</div>
-					<div class="news-item">
-						<div class="news-left">
-							<p>2020.10</p>
-							<h3>12</h3>
-						</div>
-						<div class="news-right">
-							<p>【2020年　後期柔剣道場割当が決定しました！】</p>
-						</div>
-					</div>
-					<div class="news-item">
-						<div class="news-left">
-							<p>2020.7</p>
-							<h3>8</h3>
-						</div>
-						<div class="news-right">
-							<p>【新入生との交流会.・練習会をしました！！】</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="contact-text">
+                <h2>CONTACT</h2>
+                <p>OZに興味や質問がある方はこちらまでDMをお願いします！<br>イベント情報や動画なども載せてますので、<br>是非フォローもお願いします！</p>
+            </div>
+            <div class="contact-icon">
+                <ul>
+                    <li>
+                        <a class="fab fa-twitter" href="http://twitter.com/OZ_dance946"></a>
+                        <p>twitter:OZ_dance946</p>
+                    </li>
+                    <li>
+                        <a class="fab fa-instagram" href="https://www.instagram.com/dance_oz"></a>
+                        <p>instagram:dance_oz</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-		<div id="contact" class="contact">
-			<div class="container">
-				<div class="contact-title">
-					<h2>CONTACT</h2>
-					<p>OZが気になった人へ</p>
-				</div>
-				<div class="contact-text">
-					<p>質問やご興味がありましたらこちらへ！</p>
-				</div>
-				<div class="contact-items">
-					<div class="contact-item">
-						<a class="fab fa-twitter" href="http://twitter.com/OZ_dance946"></a>
-						<p>twitter : OZ_dance946</p>
-					</div>
-					<div class="contact-item">
-						<a class="fab fa-instagram" href="https://www.instagram.com/dance_oz"></a>
-						<p>instagram : dance_oz</p>
-					</div>
-					<div class="contact-item">
-						<a class="fab fa-line" href="#"></a>
-						<p>部長LINE : yondaime0818</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="oz_2.js"></script>
-  </body>
+    <script src="main.js"></script>
+</body>
 </html>
